@@ -1,0 +1,9 @@
+[backends]
+  [backends.html5sse]
+    [backends.html5sse.servers.server1]
+      url = "http://localhost:3000"
+
+[frontends.html5sse]
+  backend = "html5sse"
+  [frontends.html5sse.routes.route1]
+    rule = "PathPrefix:/html5sse"

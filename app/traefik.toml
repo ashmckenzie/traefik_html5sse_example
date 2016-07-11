@@ -1,0 +1,6 @@
+logLevel = "DEBUG"
+defaultEntryPoints = ["http"]
+
+[file]
+  filename = "/app/traefik_rules.toml"
+  watch = true

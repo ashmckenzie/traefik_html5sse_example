@@ -1,0 +1,2 @@
+html5sse: ./bin/html5sse
+traefik:  ./bin/traefik --entrypoints="Name:http Address::${TRAEFIK_HTTP_PORT}" --web.address=":${TRAEFIK_DASHBOARD_HTTP_PORT}"
